@@ -3,7 +3,7 @@
 pub mod pmw3389;
 pub mod pmw3389e;
 
-use stm32f4xx_hal::{prelude::*, rcc::Clocks, stm32};
+use stm32f2xx_hal::{prelude::*, rcc::Clocks, stm32};
 
 pub struct DwtDelay {
     clocks: Clocks,

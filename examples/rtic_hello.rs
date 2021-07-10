@@ -3,9 +3,9 @@
 
 use cortex_m_semihosting::hprintln;
 use panic_halt as _;
-use stm32f4;
+use stm32f2;
 
-#[rtic::app(device = stm32f4)]
+#[rtic::app(device = stm32f2)]
 const APP: () = {
     #[init]
     fn init(_cx: init::Context) {

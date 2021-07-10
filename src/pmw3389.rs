@@ -1,5 +1,5 @@
 /// PWM3389 gaming mouse sensor driver
-use stm32f4xx_hal::prelude::*;
+use stm32f2xx_hal::prelude::*;
 
 use crate::DwtDelay;
 

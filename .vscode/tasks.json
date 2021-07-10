@@ -5,7 +5,7 @@
     "tasks": [
         {
             "label": "cargo build --example",
-            "command": "cargo",
+            "command": "/home/mriise/.cargo/bin/cargo",
             "args": [
                 "build",
                 "--example",
@@ -18,7 +18,7 @@
         },
         {
             "label": "cargo build --example --release",
-            "command": "cargo",
+            "command": "/home/mriise/.cargo/bin/cargo",
             "args": [
                 "build",
                 "--example",
